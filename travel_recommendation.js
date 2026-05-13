@@ -1,5 +1,5 @@
 const searchBtn = document.getElementById("btn-search");
-const resetBtn = document.getElementById("btn-reset");
+const resetBtn = document.getElementById("btn-clear");
 const resultDiv = document.getElementById("resultDiv");
 
 function resetInput() {
