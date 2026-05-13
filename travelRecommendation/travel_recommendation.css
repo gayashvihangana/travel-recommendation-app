@@ -68,13 +68,56 @@ nav ul li {
   color: white;
 }
 
-#hero h1 {
+#hero > h1 {
     font-size: 3rem;
     width: 50rem;
     padding-left: 10rem;
 }
 
-#hero p {
+#hero > p {
     width: 50rem;
     padding-left: 10rem;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 20rem;
+    /* background-color: aquamarine; */
+    width: 80vw;
+    padding-top: 10rem;
+}
+
+.team > h2 {
+    font-size: 3rem;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 0;
+    /* background-color: bisque; */
+    width: 20rem;
+}
+
+.team-card > svg {
+    width: 6rem;
+    height: 6rem;
+}
+
+.team-card > h3 {
+    text-align: center;
+}
+
+.team-card > p {
+    text-align: center;
+    max-width: 100em;
+    padding: 0;
+    margin: 0;
 }
