@@ -39,8 +39,8 @@ function handleSearch() {
         const card = document.createElement("div");
 
         const image = (destination === "countries") ? item.cities[0].imageUrl : item.imageUrl;
-        const name = item.name;
-        const description = (destination === "countries") ? item.cities[0].name : item.description;
+        const name = (destination === "countries") ? item.cities[0].name : item.name;
+        const description = (destination === "countries") ? item.cities[0].description : item.description;
 
         card.innerHTML = `
             <img src="${image}" />
