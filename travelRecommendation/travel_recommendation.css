@@ -121,3 +121,64 @@ nav ul li {
     padding: 0;
     margin: 0;
 }
+
+#contact-hero {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.contact-container > h1 {
+    font-size: 3rem;
+    width: 50rem;
+    padding-left: 10rem;
+}
+
+.contact-container > p {
+    width: 50rem;
+    padding-left: 10rem;
+}
+
+.form-container {
+    display: block;
+    gap: 10px;
+}
+
+.form-container label {
+    color: #f2f2f2;
+    font-size: 1rem;
+}
+
+.form-container input, textarea {
+    width: 20rem;
+    border: 1px solid #c0bfbf;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background: none;
+    color: #c0bfbf;
+}
+
+::placeholder {
+    color: #c0bfbf;
+    font-size: 1rem;
+}
+
+.form-container button {
+    width: 20rem;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+}
