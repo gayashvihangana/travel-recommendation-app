@@ -61,6 +61,24 @@ nav ul li {
   width: 100%;
   height: 95vh;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+#resultDiv {
+  padding-right: 20rem;
+}
+
+#aboutHero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 95vh;
+  display: flex;
   flex-direction: column;
   gap: 40px;
   align-items: flex-start;
@@ -68,13 +86,24 @@ nav ul li {
   color: white;
 }
 
-#hero > h1 {
+#aboutHero > h1 {
     font-size: 3rem;
     width: 50rem;
     padding-left: 10rem;
 }
 
-#hero > p {
+#aboutHero > p {
+    width: 50rem;
+    padding-left: 10rem;
+}
+
+#content > h1 {
+    font-size: 3rem;
+    width: 50rem;
+    padding-left: 10rem;
+}
+
+#content > p {
     width: 50rem;
     padding-left: 10rem;
 }
@@ -123,7 +152,7 @@ nav ul li {
 }
 
 #contact-hero {
-    background-image:
+  background-image:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./bgimg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
